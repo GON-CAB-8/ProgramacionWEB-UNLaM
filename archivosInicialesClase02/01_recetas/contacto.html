@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto </title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="receta.html">Brownie</a></li>
+            <li><a href="lemon-pie.html">Lemon Pie</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form action="#" method="GET">
+                <!-- Label esta Relacionado con el ID del input -->
+                <label for="nombre">Ingrese Nombre:</label>
+                <input  type="text" name="nombre" id="nombre" required placeholder="Escriba su Nombre" autofocus>
+                <br> <br>
+                <label for="apellido">Ingrese Apellido:</label>
+                <input  type="text" name="apellido" id="apellido" required  placeholder="Escriba su Apellido">
+                <br><br>
+                <label for="email">Ingrese su E-mail:</label>
+                <input required placeholder="example@example.com" type="email" name="correo" id="correo">
+                <br> <br>
+                <!-- Otra opcion 
+                <button>Enviar</button> -->
+                <!-- menu desplegable Select-->
+                <br><br>
+                <label for="provincia">Ingrese Provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">CABA</option>
+                    <option value="3" selected>Catamarca</option>
+                    <option value="4">Formosa</option>
+                    <option value="5">Entre Rios</option>
+                </select>
+
+                <!-- Area de texto -->
+                <br>
+                <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+
+                <br><br>
+                <!-- Radio Button -->
+                <br><br>
+                <p>Indique sexo</p>
+                <label for="f">F</label>
+                <input type="radio" name="sexo" id="f" value="f">
+                <label for="m">M</label>
+                <input type="radio" name="sexo" id="m" value="m" checked>
+
+                <!-- Check Box -->
+                <br><br>
+                <label for="termino">Acepto los termino y condiciones</label>
+                <input type="checkbox" name="termino" id="termino">
+                <!-- Boton de enviar -->
+                <br><br>
+                <input type="submit" value="Enviar">
+
+
+            </form>
+        </section>
+        <section>
+            <br>
+            <br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3643336747227!2d-58.56499388505009!3d-34.67075316855472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses!2sar!4v1649288301898!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>2022 Programación Web 1 - <a href="https://www.unlam.edu.ar/" target="_blank">Unlam</a>  -  <a href="mailsto:arosenthal@unlam.edu.ar">arosenthal@unlam.edu.ar</a> - <a href="primer-archivo.html">Primer archivo</a> - <a href="#inicio">inicio</a></p>
+    </footer>
+</body>
+</html>
