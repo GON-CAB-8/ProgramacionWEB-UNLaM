@@ -1,0 +1,6 @@
+body{
+    background-image: url(../img/fondo01.png);
+    background-color: rgb(208, 212, 110);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
