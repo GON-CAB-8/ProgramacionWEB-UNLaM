@@ -1,0 +1,24 @@
+.galeria{
+    width: 95%;
+    margin: auto;
+}
+.galeria img {
+    width: 100%;
+}
+@media screen and (min-width:48em) {
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        /* el gap se lo saco del width de abajo*/
+    }
+    .galeria img{
+        width: calc(50% - 1em);
+    }
+}
+
+@media screen and (min-width:64em){
+    .galeria img{
+        width: calc(33.3% - 1em);
+    }
+}
