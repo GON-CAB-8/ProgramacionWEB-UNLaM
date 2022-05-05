@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col{
+    background-color: #7b1873;
+    color:#fff;
+    padding: 0.8em;
+    margin-top:1em;
+}
+.contendor{
+    width: 95%;
+    margin: auto;
+}
+@media screen and (min-width:48em) {
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        /*  */
+        gap: 1em;
+    }
+    .col{
+        width: calc(50% - 1em);
+        box-sizing: border-box;
+        /* padding hacia adentro y no hacia afuera */
+    }
+}
+
+@media screen and (min-width:64em) {
+    .col{
+        width: calc(33.3% - 1em);
+        box-sizing: border-box;
+    }
+}

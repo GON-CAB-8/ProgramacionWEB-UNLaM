@@ -1,0 +1,27 @@
+.videos .contenedor{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.videos .contenedor iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width:48em) {
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .videos .video{
+        width: calc(50% - 1em);
+    }      
+}
+
+@media screen and (min-width:64em){
+    .videos .video{
+        width: calc(33.3% - 1em);
+    }
+}
