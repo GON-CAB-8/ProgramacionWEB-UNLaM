@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding:0;
+  }
+
+header{
+    display: flex;
+    justify-content: left;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+body{
+    border: 1px solid black;
+}
+
+main{
+    border: 1px solid black;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#principal #ventana{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 1em;
+    margin-right: 0.5em;
+    height: 150px;
+    display: flex;
+}
+
+#principal #ventana p{
+    margin: auto;
+}
+
+#principal #opciones{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+
+.container-universidad{
+    display: flex;
+    flex-direction: column;
+}
+.container-universidad label{
+    margin: 0.5em;
+}
+.container-universidad select{
+    margin: 0.5em;
+    width: 75%;
+}
+
+.container-fondo{
+    display: flex;
+    flex-direction: column;
+}
+.container-fondo label{
+    margin: 0.5em;
+}
+.container-fondo select{
+    margin: 0.5em;
+    width: 75%;
+}
+
+.container-colores-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-colores-texto label{
+    margin: 0.5em;
+}
+
+.container-colores-texto #radio-btns{
+    margin: 0.5em;
+}
+
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+
+.blanco{
+    color:white;
+}
+
+.gris{
+    color:gray;
+}
+
+.amarillo{
+    color:yellow;
+}

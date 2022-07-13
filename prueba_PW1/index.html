@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="/js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h2>2do Parcial</h2>
+        </header>
+        <section id="principal">
+            <article id="ventana">
+                <p id="texto-universidad">Universidad</p>
+            </article>
+
+            <article id="opciones">
+                
+                <div class="container-universidad">
+                    <label for="universidad">Ingresa una universidad:</label>
+                    <select name="universidad" id="universidad">
+                        <option value="0">Seleccione una universidad</option>
+                        <option value="UNLAM">UNLAM</option>
+                        <option value="UAI">UAI</option>
+                        <option value="UNSAM">UNSAM</option>
+                    </select>
+                </div>
+                
+                <div class="container-fondo">
+                    <label for="colores">Cambia el color de fondo:</label>
+                    <select name="colores" id="colores">
+                        <option value="0">Seleccione un color de fondo</option>
+                        <option value="rojo">Rojo</option>
+                        <option value="verde">Verde</option>
+                        <option value="azul">Azul</option>
+                    </select>
+                </div>
+                
+                <div class="container-colores-texto">
+                    <label for="color-texto">Cambia el color del texto:</label>
+                    <div id="radio-btns">
+                        <input type="radio" name="color-texto" value="1" id="color-texto">Blanco
+                        <input type="radio" name="color-texto" value="2" id="color-texto">Gris
+                        <input type="radio" name="color-texto" value="3" id="color-texto">Amarillo
+                    </div>
+                </div>
+                
+            </article>
+        </section>
+        <footer>
+            <h4>Cabral Ignacio 40389937</h4>
+        </footer>
+    </main>
+</body>
+</html>
